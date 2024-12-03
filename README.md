@@ -61,3 +61,20 @@ Creación de un sistema digital centralizado.
 ## Roadmap
 - Integración de API para notificaciones.
 - Reportes gráficos avanzados.
+
+### Instalación de PostgreSQL
+- Descarga PostgreSQL desde [su sitio oficial](https://www.postgresql.org/).
+- Configura un usuario y una base de datos para el sistema.
+- Usa el comando: `CREATE DATABASE nombre_base_datos;`.
+
+## Uso
+### Usuario Final
+- Abre la aplicación en tu navegador en `http://localhost:3000`.
+- Accede con tu cuenta o regístrate.
+- Registra un donativo llenando el formulario en la sección "Registrar Donativo".
+- Revisa el inventario desde el menú "Inventario".
+
+### Administrador
+- Accede al panel de administración en `http://localhost:3000/admin`.
+- Agrega nuevos usuarios desde la pestaña "Usuarios".
+- Configura alertas en la sección "Notificaciones".
